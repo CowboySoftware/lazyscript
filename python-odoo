@@ -1,0 +1,38 @@
+#!/bin/sh
+sudo apt-get install python-dateutil 
+sudo apt-get install python-decorator 
+sudo apt-get install python-docutils 
+sudo apt-get install python-feedparser 
+sudo apt-get install python-gdata 
+sudo apt-get install python-gevent 
+sudo apt-get install python-imaging 
+sudo apt-get install python-jinja2 
+sudo apt-get install python-ldap 
+sudo apt-get install python-libxslt1 
+sudo apt-get install python-lxml 
+sudo apt-get install python-mako 
+sudo apt-get install python-mock 
+sudo apt-get install python-openid 
+sudo apt-get install python-passlib 
+sudo apt-get install python-psutil 
+sudo apt-get install python-psycopg2 
+sudo apt-get install python-pybabel 
+sudo apt-get install python-pychart 
+sudo apt-get install python-pydot 
+sudo apt-get install python-pyparsing 
+sudo apt-get install python-pypdf 
+sudo apt-get install python-reportlab 
+sudo apt-get install python-requests 
+sudo apt-get install python-simplejson 
+sudo apt-get install python-tz 
+sudo apt-get install python-unittest2 
+sudo apt-get install python-vatnumber 
+sudo apt-get install python-vobject 
+sudo apt-get install python-werkzeug 
+sudo apt-get install python-xlwt 
+sudo apt-get install python-yaml 
+sudo apt-get install git
+
+wget http://sourceforge.net/projects/wkhtmltopdf/files/0.12.2.1/wkhtmltox-0.12.2.1_linux-trusty-amd64.deb/download
+
+sudo dpkg -i wkhtmltox-0.12.2.1_linux-trusty-amd64.deb
