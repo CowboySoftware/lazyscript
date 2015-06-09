@@ -18,7 +18,7 @@ $ sudo reboot
 
 * เข้าเพิ่ม user ในระบบสำหรับ Odoo 
 ```sh
-$ 
+$ sudo adduser --system --home=/opt/odoo --group odoo
 ```
 * ทำการติตตั้ง PostgresSQL
 ```sh
