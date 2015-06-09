@@ -33,10 +33,7 @@ $ sudo su - postgres
 ```sh
 $ createuser --createdb --username postgres --no-createrole --no-superuser --pwprompt odoo
 ```
-* ทำการติตตั้ง Extension Pack
-```sh
-$ sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-X.X.XXXX.vbox-extpack
-```
+
 * ใส่รหัสสำหรับ User ใน Database
 ```sh
 $ Enter password for new role: ********
